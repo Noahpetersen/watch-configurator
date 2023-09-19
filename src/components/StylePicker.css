@@ -1,0 +1,58 @@
+.style-picker-container {
+    width: 20em;
+    height: 30em;
+    position: absolute;
+    right: 50px;
+    top: 50;
+    z-index: 10;
+    border-radius: 50px;
+    background: rgba(197, 196, 184, 0.8); /* Apply background color with reduced opacity */
+    padding: 20px; /* Adjust padding as needed */
+    backdrop-filter: blur(10px); /* Apply the blur effect to the container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    opacity: 0;
+}
+
+
+.wrist-band-color h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin-top: 2em;
+    margin-left: 2em;
+    text-align: left;
+    border-bottom: 1px solid #222;
+    max-width: 60%;
+}
+
+.color__container {
+    display: flex;
+    margin-left: 2.2em;
+    justify-content: space-between;
+    max-width: 80%;
+}
+
+.color__badge {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.color {
+    width: 2em;
+    height: 2em;
+    border-radius: 50px;
+}
+
+.color__name {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 0.8rem;
+    margin: 0.6em 0 0 0;
+}
+
+.style-picker-container--active {
+    border: 2px solid #fff;
+}
+

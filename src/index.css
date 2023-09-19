@@ -1,0 +1,23 @@
+:root {
+  background-color: transparent;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+html, body {
+  margin: 0;       /* Remove default margin */
+  padding: 0;      /* Remove default padding */
+  width: 100%;     /* Set width to 100vw */
+  height: 100%;    /* Set height to 100vh */
+  overflow: hidden; /* Prevent scrollbars */
+}
+
+.app {
+  width: 100vw;
+  height: 100vh;
+}
+
