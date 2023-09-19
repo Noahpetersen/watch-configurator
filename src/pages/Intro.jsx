@@ -52,7 +52,7 @@ const Intro = () => {
 
         setInterval(() => {
             state.intro = false
-        }, 5000)
+        }, 2000)
         
     }
 
